@@ -13,14 +13,14 @@
   </properties>
 
   <artifactId>oic-auth</artifactId>
-  <version>1.9-SNAPSHOT</version>
+  <version>1.9</version>
   <packaging>hpi</packaging>
 
   <scm>
-    <connection>scm:git:ssh://github.com/jenkinsci/oic-auth-plugin.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/oic-auth-plugin.git</developerConnection>
-    <url>https://github.com/jenkinsci/oic-auth-plugin</url>
-    <tag>HEAD</tag>
+    <connection>scm:git:ssh://github.com/neoris-devsecops/oic-auth-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/neoris-devsecops/oic-auth-plugin.git</developerConnection>
+    <url>https://github.com/neoris-devsecops/oic-auth-plugin</url>
+    <tag>oic-auth-1.9</tag>
   </scm>
 
   <name>OpenId Connect Authentication Plugin</name>
@@ -130,14 +130,14 @@
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
-      <url>https://repo.jenkins-ci.org/public/</url>
+      <url>https://repo.jenkins-ci.org/releases/</url>
     </repository>
   </repositories>
 
   <pluginRepositories>
     <pluginRepository>
       <id>repo.jenkins-ci.org</id>
-      <url>https://repo.jenkins-ci.org/public/</url>
+      <url>https://repo.jenkins-ci.org/releases/</url>
     </pluginRepository>
   </pluginRepositories>
 
